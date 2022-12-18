@@ -14,6 +14,7 @@
 		80907989293D3A0900D25E27 /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80907987293D3A0900D25E27 /* Notes.xcdatamodeld */; };
 		8090798B293D3A0900D25E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8090798A293D3A0900D25E27 /* Assets.xcassets */; };
 		8090798E293D3A0900D25E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8090798C293D3A0900D25E27 /* LaunchScreen.storyboard */; };
+		80907996293D3A4B00D25E27 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80907995293D3A4B00D25E27 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8090798A293D3A0900D25E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8090798D293D3A0900D25E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8090798F293D3A0900D25E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80907995293D3A4B00D25E27 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				8090797E293D3A0900D25E27 /* AppDelegate.swift */,
 				80907980293D3A0900D25E27 /* SceneDelegate.swift */,
 				80907982293D3A0900D25E27 /* ViewController.swift */,
+				80907995293D3A4B00D25E27 /* DetailViewController.swift */,
 				80907984293D3A0900D25E27 /* Main.storyboard */,
 				8090798A293D3A0900D25E27 /* Assets.xcassets */,
 				8090798C293D3A0900D25E27 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				80907983293D3A0900D25E27 /* ViewController.swift in Sources */,
 				8090797F293D3A0900D25E27 /* AppDelegate.swift in Sources */,
+				80907996293D3A4B00D25E27 /* DetailViewController.swift in Sources */,
 				80907981293D3A0900D25E27 /* SceneDelegate.swift in Sources */,
 				80907989293D3A0900D25E27 /* Notes.xcdatamodeld in Sources */,
 			);
