@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Notes-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Notes" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VwG-RK-GEg" secondAttribute="bottom" id="lgF-1b-Iz8"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Tz0-es-g7f"/>
+                    <navigationItem key="navigationItem" title="Notes" id="Tz0-es-g7f"/>
                     <connections>
                         <outlet property="tableView" destination="VwG-RK-GEg" id="I45-ZI-WGG"/>
                         <segue destination="PaU-Q1-9es" kind="show" identifier="toDetailVC" id="a7D-IK-vuf"/>
@@ -104,6 +104,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ogN-Gh-DrO">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" systemColor="systemOrangeColor"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

@@ -22,6 +22,8 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         tableView.delegate = self
         tableView.dataSource = self
         navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(addButtonClicked))
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.orange]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
         
         verileriAl()
         
